@@ -11,7 +11,7 @@ function App() {
     <Router>
       <div className="App">
         <Switch>
-          <PrivateRoute exact path="/private" component={FriendsList} />
+          <PrivateRoute exact path="/friendsList" component={FriendsList} />
           <Route path="/login" component={Login} />
           <Route component={Login} /> 
         </Switch>
